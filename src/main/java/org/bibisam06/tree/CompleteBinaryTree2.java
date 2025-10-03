@@ -44,7 +44,7 @@ public class CompleteBinaryTree2 {
         for (int root : roots) {
             System.out.println("====== Root: " + root + " ======");
 
-            // BFS 
+            // BFS (한 줄 나열)
             System.out.print("BFS(line): ");
             bfsLine(nodes[root]);
             System.out.println();
