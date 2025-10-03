@@ -3,14 +3,14 @@ package org.bibisam06.tree.template;
     단순 상승 LCA(Lowest Common Ancestor) 구현하기 - Java
 */
 import java.util.*;
-public class LowestCommonAncestor {
+public class LowestCommonAncestor1 {
 
     static int[] parent, depth;
     static ArrayList<Integer>[] graph;
 
     static void bfs(int root){ // depth, parent 계산
         Arrays.fill(parent, -1);
-        Arrays.fill(depth, -1); 
+        Arrays.fill(depth, -1);
         Queue<Integer> queue = new ArrayDeque<>();
 
         queue.add(root);
