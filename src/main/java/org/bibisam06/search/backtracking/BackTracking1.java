@@ -1,11 +1,11 @@
 package org.bibisam06.search.backtracking;
 
 /*
-    BackTracking 예제 1 : 순열 생성하기
+    BackTracking 예제 1 : 순열 구현
 */
 
 import java.util.*;
-public class BackTrackingTest {
+public class BackTracking1 {
 
     public static void main(String[] args){
         int[] nums = {1, 2, 3, 4};
