@@ -8,7 +8,7 @@ public class BackTracking3 {
     public static void main(String[] args){
         int[] nums = {10, 20, 30};
         List<List<Integer>> answer = new ArrayList<>();
-        int n = nums.length; 
+        int n = nums.length;
         for(int i=0; i<n; i++) {
             answer.add(new ArrayList<>());
         }
