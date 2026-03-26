@@ -7,6 +7,9 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+/*
+1. Comprator 구현방식 1 : 클래스를 만들어서 구현하기
+ */
 public class MyComparator implements Comparator<Student> {
     @Override
     public int compare(Student o1, Student o2) {

@@ -6,7 +6,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-
+/*
+2. 익명클래스 만들기
+ */
 public class Comparator2 {
     public static void main(String[] args) {
         List<Student> list = new ArrayList<>();
@@ -14,6 +16,7 @@ public class Comparator2 {
         list.add(new Student("상근", 33));
         list.add(new Student("민지", 21));
 
+        // 익명클래스
         Collections.sort(list, new Comparator<Student>() {
             @Override
             public int compare(Student o1, Student o2){
