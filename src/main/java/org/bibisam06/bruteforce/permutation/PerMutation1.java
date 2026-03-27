@@ -1,4 +1,4 @@
-package org.bibisam06.etc.Permutation.PerMutation1;
+package org.bibisam06.bruteforce.permutation;
 
 import java.util.Arrays;
 
