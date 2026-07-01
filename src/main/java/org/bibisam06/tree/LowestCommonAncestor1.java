@@ -1,4 +1,4 @@
-package org.bibisam06.tree.template;
+package org.bibisam06.tree;
 /*
     단순 상승 LCA(Lowest Common Ancestor) 구현하기 - Java
 */

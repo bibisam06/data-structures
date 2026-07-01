@@ -1,4 +1,4 @@
-package org.bibisam06.tree.template;
+package org.bibisam06.tree;
 /*
     코드 템플릿 1 : 일반 이진 트리 - 클래스로 구현하기 (BFS)
 */
